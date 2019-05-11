@@ -1,30 +1,10 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 
+import './MainPageStyling.css';
 
-
-
-const Input = styled.input`
-    padding: 0.5em;
-    margin: 0.5em;
-    color: ${props => props.inputColor || "palevioletred"};
-    background: papayawhip;
-    border: none;
-    border-radius: 3px;
-`;
-
-const Wrapper = styled.section`
-    padding: 6em;
-    background: lightblue;
-
-`;
 
 
 class MainPage extends Component {
-
-
-// got to Basics - Coming from CSS - Define Style Components outside of the render method
-
 
 
     render() {
@@ -32,10 +12,21 @@ class MainPage extends Component {
 
 
         return (
-            <Wrapper>
-                <Input defaultValue="@probablyup" type="text" />
-                <Input defaultValue="@geelen" type="text" inputColor="rebeccapurple" />
-            </Wrapper>
+            <div>
+                
+                <div className="parallax"></div>
+                <div className='text'>
+                Bam!
+                </div>
+                <div className="parallax"></div>
+                <div className='text'>
+                Bam!
+                </div>
+                <div className="parallax"></div>
+                <div className='text'>
+                Bam!
+                </div>
+            </div>
 
         )
     }
