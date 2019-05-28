@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Navbar from './Navbar/Navbar';
 import './MainPageStyling.css';
 
 
@@ -12,20 +13,15 @@ class MainPage extends Component {
 
 
         return (
-            <div>
-                
-                <div className="parallax"></div>
-                <div className='text'>
-                Bam!
+            <div className=''>
+
+                <div className="parallax">
+                    <Navbar />
                 </div>
-                <div className="parallax"></div>
-                <div className='text'>
-                Bam!
-                </div>
-                <div className="parallax"></div>
-                <div className='text'>
-                Bam!
-                </div>
+                <section className='text'>
+                    <h1>Section Content</h1>
+                </section>
+
             </div>
 
         )
@@ -33,3 +29,9 @@ class MainPage extends Component {
 }
 
 export default MainPage;
+
+
+// {/* <div className="parallax"></div>
+// <div className='text2'>
+//     Bam!
+// </div> */}
