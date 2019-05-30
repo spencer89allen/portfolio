@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 
-import Navbar from './Navbar/Navbar';
 import './MainPageStyling.css';
+import Navbar from './Navbar/Navbar';
+import AboutMe from './AboutMe/AboutMe';
+import Skills from './Skills/Skills';
+import Portfolio from './Portfolio/Portfolio';
+import Footer from './Footer/Footer';
 
 
 
@@ -15,13 +19,15 @@ class MainPage extends Component {
         return (
             <div className=''>
 
+                <Navbar />
                 <div className="parallax">
-                    <Navbar />
                 </div>
-                <section className='text'>
-                    <h1>Section Content</h1>
-                </section>
-
+                <AboutMe />
+                <Skills />
+                <Portfolio />
+                <div className="parallax2">
+                </div>
+                <Footer />
             </div>
 
         )

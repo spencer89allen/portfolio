@@ -1,0 +1,16 @@
+.text2 {
+    color: white;
+    background-color: #E67E22;
+    
+    background: rgb(110,44,0);
+    background: linear-gradient(90deg, rgba(110,44,0,1) 0%, rgba(230,126,34,1) 100%);
+
+
+    font-size: 36px;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -5vw;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+
+
+}
