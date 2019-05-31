@@ -10,7 +10,7 @@ class Skills extends Component {
 
         return (
             <div>
-                <section className='text2'>
+                <section className='skillsContainer'>
                     <h1>Skills</h1>
                 </section>
             </div>

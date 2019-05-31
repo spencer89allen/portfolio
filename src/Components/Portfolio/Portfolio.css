@@ -1,5 +1,9 @@
 .portfolio {
+    color: white;
+    font-size: 36px;
     width: 100vw;
     height: 100vh;
     background-color: #283747;
+    background: rgb(62,85,110);
+    background: linear-gradient(90deg, rgba(62,85,110,1) 0%, rgba(50,69,89,1) 24%, rgba(31,42,54,1) 100%);
 }

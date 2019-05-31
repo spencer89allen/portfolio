@@ -12,7 +12,7 @@ class AboutMe extends Component {
 
         return (
             <div>
-                <section className='text'>
+                <section className='AboutContainer'>
                     <h1>About Me</h1>
                 </section>
             </div>

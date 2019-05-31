@@ -9,7 +9,7 @@ class Footer extends Component {
 
         return (
             <div className='foot'>
-                
+                The Footer
             </div>
         )
     }
