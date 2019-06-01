@@ -1,4 +1,196 @@
-.contactContainer {
-    color: white;
-    font-size: 36px;
+
+section {
+    display: block;
+}
+
+.inner {
+    padding: 5em 0 3em 0;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 55em;
+}
+
+.inner > h2.major {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+    color: #ffffff;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+.inner > p {
+    color: #ffffff;
+    margin: 0 0 2em 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+}
+
+.inner form {
+    margin: 0 3em 0 0;
+    width: calc(50% - 1.5em);
+}
+
+form > .fields {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 3em);
+    margin: -1.5em 0 2em -1.5em;
+}
+
+form > .fields > .field {
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 1.5em 0 0 1.5em;
+    width: calc(100% - 1.5em);
+
+}
+
+label {
+    color: #ffffff;
+    display: block;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 0 0.7em 0;
+    text-transform: uppercase;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    height: 2.75em;
+    background: rgba(255, 255, 255, 0.025);
+    border-radius: 5px;
+    border: none;
+    border: solid 2px rgba(255, 255, 255, 0.125);
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+
+textarea {
+    padding: 0.75em 1em;
+    background: rgba(255, 255, 255, 0.025);
+    border-radius: 5px;
+    border: solid 2px rgba(255, 255, 255, 0.125);
+    color: inherit;
+    display: block;
+    outline: 0;
+    width: 100%;
+}
+
+ul.actions {
+    display: flex;
+    cursor: default;
+    list-style: none;
+    margin-left: -1em;
+    padding-left: 0;
+}
+
+ul.contact li:first-child {
+    margin-top: 0;
+    margin: 2.5em 0 0 0;
+    padding: 0 0 0 3.25em;
+    position: relative;
+}
+
+ul.actions li {
+    color: #ffffff;
+    padding: 0 0 0 1em;
+    vertical-align: middle;
+}
+
+.inner .contact ul.contact {
+    width: calc(50% - 1.5em);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+    transition: background-color 0.2s ease-in-out;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    height: 3.75em;
+    letter-spacing: 0.1em;
+    line-height: 3.75em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+ul.contact li {
+    text-decoration: none;
+    margin: 2.5em 0 0 0;
+    padding: 0 0 0 3.25em;
+    position: relative;
+}
+
+.inner .copyright {
+    border-top: solid 2px rgba(255, 255, 255, 0.125);
+    list-style: none;
+    margin: 4em 0 2em 0;
+    padding: 2em 0 0 0;
+    width: 100%;
+}
+
+.inner .copyright li ul {
+    border-left: solid 2px rgba(255, 255, 255, 0.125);
+    color: rgba(255, 255, 255, 0.35);
+    display: inline-block;
+    font-size: 0.9em;
+    line-height: 1;
+    margin-left: 1em;
+    padding: 0;
+    padding-left: 1em;
+}
+
+.inner .copyright li a {
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
 }
